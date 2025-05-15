@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,200,300,regular,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
+
+.roboto {
+  font-weight: 900;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+  font-family: "Pretendard", sans-serif;
+}
+
+.sec-block {
+  background-color: rgb(54, 54, 54);
+}
+
+.gold-text {
+  background: #dfc08e;
+  background: linear-gradient(to top, #dfc08e 0%, #905b0d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.low-opacity-bg {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+}
+
+.outlined-text {
+  /* Text color */
+  -webkit-text-stroke: 2px #f2dbaf; /* Outline thickness & color */
+}
+
+.box-shadow {
+  box-shadow: 1px 2px 14px 0px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 1px 2px 14px 0px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 1px 2px 14px 0px rgba(0, 0, 0, 0.23);
+}
+
+input,
+textarea:focus {
+  outline-color: #1254a0;
+  outline-width: 0.5px;
+}
