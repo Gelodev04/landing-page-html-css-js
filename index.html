@@ -14,24 +14,28 @@
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
   </head>
   <body>
-    <main class="p-5 max-w-[1250px] mx-auto flex flex-col gap-10 tracking-wide">
+    <main
+      class="lg:p-5 p-2 max-w-[1250px] mx-auto flex flex-col gap-10 tracking-wide"
+    >
       <!-- FIRST BLOCK -->
       <section
-        class="sec-block flex flex-col items-center justify-evenly h-[703px]"
+        class="sec-block flex flex-col items-center justify-evenly lg:h-[703px] px-3"
       >
         <!-- LOGO -->
         <div>
           <h1 class="text-[7rem] text-white">LOGO</h1>
         </div>
 
-        <ul class="text-white text-[24px]">
+        <ul class="text-white lg:text-[24px] text-[20px]">
           <li># 소자본 고수익 창업을 원하시는 분</li>
           <li># 안정적인 수익을 원하시는 분</li>
           <li># 모든일을 열정적으로 할 수 있으신분</li>
         </ul>
 
         <!-- CHAT BUBBLE -->
-        <ul class="flex gap-[5rem] whitespace-nowrap">
+        <ul
+          class="flex lg:gap-[5rem] whitespace-nowrap flex-col lg:flex-row mt-5 lg:mt-0"
+        >
           <!-- FIRST BUBBLE -->
           <li class="relative w-[300px]">
             <div class="absolute inset-0 flex justify-center items-center">
@@ -40,11 +44,7 @@
                 구축된 시스템
               </p>
             </div>
-            <svg
-              width="320"
-              viewBox="0 0 320 220"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M20 20 
        h280 
@@ -73,11 +73,7 @@
                 안정적인 수익구조
               </p>
             </div>
-            <svg
-              width="320"
-              viewBox="0 0 320 220"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M20 20 
        h280 
@@ -105,11 +101,7 @@
                 피로도가 없는 <span class="text-[#f80101]">근무환경</span>
               </p>
             </div>
-            <svg
-              width="320"
-              viewBox="0 0 320 220"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M20 20 
        h280 
@@ -132,166 +124,56 @@
           </li>
         </ul>
       </section>
-
-      <!-- SECOND SECTIOn -->
-      <section class="sec-block flex justify-center items-center h-[703px]">
-        <div class="bg-black low-opacity-bg py-[2rem] pb-[2.5rem] px-[3rem]">
+      <!-- SECOND SECTION -->
+      <section
+        class="sec-block flex justify-center items-center lg:h-[703px] px-4 sm:px-6 md:px-8 py-[4rem]"
+      >
+        <div
+          class="bg-black low-opacity-bg py-[1.5rem] px-[1.5rem] sm:py-[2rem] sm:pb-[2.5rem] sm:px-[3rem] w-full max-w-[700px]"
+        >
           <!-- STARS -->
-          <div class="flex justify-center gap-[6px]">
-            <svg
-              class="size-[20px]"
-              version="1.1"
-              id="Capa_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 53.867 53.867"
-              xml:space="preserve"
-            >
-              <defs>
-                <linearGradient
-                  id="gold-gradient"
-                  x1="100%"
-                  y1="100%"
-                  x2="0%"
-                  y2="0%"
-                >
-                  <stop offset="0%" stop-color="#fff4b0" />
-                  <stop offset="50%" stop-color="#efce4a" />
-                  <stop offset="100%" stop-color="#b8860b" />
-                </linearGradient>
-              </defs>
-              <g id="SVGRepo_iconCarrier">
+          <div class="flex justify-center gap-[4px] sm:gap-[6px]">
+            <!-- 5 SVG Stars -->
+            <template x-for="i in 5">
+              <svg
+                class="w-[16px] h-[16px] sm:size-[20px]"
+                viewBox="0 0 53.867 53.867"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <linearGradient
+                    id="gold-gradient"
+                    x1="100%"
+                    y1="100%"
+                    x2="0%"
+                    y2="0%"
+                  >
+                    <stop offset="0%" stop-color="#fff4b0" />
+                    <stop offset="50%" stop-color="#efce4a" />
+                    <stop offset="100%" stop-color="#b8860b" />
+                  </linearGradient>
+                </defs>
                 <polygon
                   style="fill: url(#gold-gradient)"
                   points="26.934,1.318 35.256,18.182 53.867,20.887 40.4,34.013 43.579,52.549 26.934,43.798 10.288,52.549 13.467,34.013 0,20.887 18.611,18.182"
                 />
-              </g>
-            </svg>
-            <svg
-              class="size-[20px]"
-              version="1.1"
-              id="Capa_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 53.867 53.867"
-              xml:space="preserve"
-            >
-              <defs>
-                <linearGradient
-                  id="gold-gradient"
-                  x1="100%"
-                  y1="100%"
-                  x2="0%"
-                  y2="0%"
-                >
-                  <stop offset="0%" stop-color="#fff4b0" />
-                  <stop offset="50%" stop-color="#efce4a" />
-                  <stop offset="100%" stop-color="#b8860b" />
-                </linearGradient>
-              </defs>
-              <g id="SVGRepo_iconCarrier">
-                <polygon
-                  style="fill: url(#gold-gradient)"
-                  points="26.934,1.318 35.256,18.182 53.867,20.887 40.4,34.013 43.579,52.549 26.934,43.798 10.288,52.549 13.467,34.013 0,20.887 18.611,18.182"
-                />
-              </g>
-            </svg>
-            <svg
-              class="size-[20px]"
-              version="1.1"
-              id="Capa_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 53.867 53.867"
-              xml:space="preserve"
-            >
-              <defs>
-                <linearGradient
-                  id="gold-gradient"
-                  x1="100%"
-                  y1="100%"
-                  x2="0%"
-                  y2="0%"
-                >
-                  <stop offset="0%" stop-color="#fff4b0" />
-                  <stop offset="50%" stop-color="#efce4a" />
-                  <stop offset="100%" stop-color="#b8860b" />
-                </linearGradient>
-              </defs>
-              <g id="SVGRepo_iconCarrier">
-                <polygon
-                  style="fill: url(#gold-gradient)"
-                  points="26.934,1.318 35.256,18.182 53.867,20.887 40.4,34.013 43.579,52.549 26.934,43.798 10.288,52.549 13.467,34.013 0,20.887 18.611,18.182"
-                />
-              </g>
-            </svg>
-            <svg
-              class="size-[20px]"
-              version="1.1"
-              id="Capa_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 53.867 53.867"
-              xml:space="preserve"
-            >
-              <defs>
-                <linearGradient
-                  id="gold-gradient"
-                  x1="100%"
-                  y1="100%"
-                  x2="0%"
-                  y2="0%"
-                >
-                  <stop offset="0%" stop-color="#fff4b0" />
-                  <stop offset="50%" stop-color="#efce4a" />
-                  <stop offset="100%" stop-color="#b8860b" />
-                </linearGradient>
-              </defs>
-              <g id="SVGRepo_iconCarrier">
-                <polygon
-                  style="fill: url(#gold-gradient)"
-                  points="26.934,1.318 35.256,18.182 53.867,20.887 40.4,34.013 43.579,52.549 26.934,43.798 10.288,52.549 13.467,34.013 0,20.887 18.611,18.182"
-                />
-              </g>
-            </svg>
-            <svg
-              class="size-[20px]"
-              version="1.1"
-              id="Capa_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 53.867 53.867"
-              xml:space="preserve"
-            >
-              <defs>
-                <linearGradient
-                  id="gold-gradient"
-                  x1="100%"
-                  y1="100%"
-                  x2="0%"
-                  y2="0%"
-                >
-                  <stop offset="0%" stop-color="#fff4b0" />
-                  <stop offset="50%" stop-color="#efce4a" />
-                  <stop offset="100%" stop-color="#b8860b" />
-                </linearGradient>
-              </defs>
-              <g id="SVGRepo_iconCarrier">
-                <polygon
-                  style="fill: url(#gold-gradient)"
-                  points="26.934,1.318 35.256,18.182 53.867,20.887 40.4,34.013 43.579,52.549 26.934,43.798 10.288,52.549 13.467,34.013 0,20.887 18.611,18.182"
-                />
-              </g>
-            </svg>
+              </svg>
+            </template>
           </div>
+
+          <!-- Title -->
           <div class="text-white text-center mt-2">
-            <p class="text-[2.2rem] font-[900]">열켜훝 전국가램점</p>
+            <p class="text-[1.6rem] sm:text-[2rem] md:text-[2.2rem] font-[900]">
+              열켜훝 전국가램점
+            </p>
           </div>
+
+          <!-- Highlight Line -->
           <div
-            class="text-white text-center flex items-center justify-center gap-3"
+            class="text-white text-center flex justify-center items-center gap-2 sm:gap-3 mt-2"
           >
             <svg
-              class="size-[3.5rem]"
+              class="w-[2.5rem] h-[2.5rem] sm:size-[3.5rem]"
               viewBox="0 0 60 40"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -299,12 +181,11 @@
               <rect x="5" y="18" width="50" height="2" fill="white" />
               <rect x="5" y="28" width="50" height="2" fill="white" />
             </svg>
-
-            <p class="text-[2.2rem] font-[900]">
+            <p class="text-[1.6rem] sm:text-[2rem] md:text-[2.2rem] font-[900]">
               <span class="text-[#f2dbaf]">420호쳡</span> 발생!
             </p>
             <svg
-              class="size-[3.5rem]"
+              class="w-[2.5rem] h-[2.5rem] sm:size-[3.5rem]"
               viewBox="0 0 60 40"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -312,117 +193,142 @@
               <rect x="5" y="18" width="50" height="2" fill="white" />
               <rect x="5" y="28" width="50" height="2" fill="white" />
             </svg>
-
           </div>
+
+          <!-- Main Number -->
           <h1
-            class="text-[12rem] gold-text text-center roboto leading-[12rem] outlined-text"
+            class="text-[6rem] sm:text-[8rem] md:text-[10rem] lg:text-[12rem] gold-text text-center roboto leading-[6rem] sm:leading-[8rem] md:leading-[10rem] lg:leading-[12rem] outlined-text mt-3 sm:mt-4"
           >
             420
           </h1>
+
+          <!-- Bottom Banner -->
           <div
-            class="border-t border-b border-[535251] text-[1.8rem] font-[900] text-center text-white py-2 mt-1"
+            class="border-t border-b border-[#535251] text-[1.4rem] sm:text-[1.6rem] md:text-[1.8rem] font-[900] text-center text-white py-2 mt-2 sm:mt-3"
           >
             동종 업계 가행접 수 <span class="text-[#faf200]">단연 1위</span>
           </div>
         </div>
       </section>
-
       <!-- THIRD SECTION -->
       <section
-        class="bg-[#6966ff] flex justify-center items-center h-[703px] p-[3.5rem]"
+        class="bg-[#6966ff] flex justify-center items-center min-h-[703px] px-4 sm:px-6 lg:px-[3.5rem] py-10"
       >
-        <div class="bg-white rounded-[2rem] h-full w-full relative p-[3rem]">
+        <div
+          class="bg-white rounded-[1.5rem] w-full max-w-[1200px] relative p-4 sm:p-6 md:p-[3rem]"
+        >
           <!-- LOGO -->
-          <div class="absolute text-[2rem] right-4 top-0">LOGO</div>
-          <h1 class="text-[4rem] font-[900] leading-tight">
-            폐업을 단 <span class="text-[#fc0101]">5% </span><br />
+          <div
+            class="absolute text-[1.2rem] sm:text-[1.6rem] md:text-[2rem] right-4 top-2 sm:top-4"
+          >
+            LOGO
+          </div>
+
+          <!-- Heading -->
+          <h1
+            class="text-[2rem] sm:text-[2.8rem] md:text-[4rem] font-[900] leading-tight text-center sm:text-left mt-10 md:mt-0"
+          >
+            폐업을 단 <span class="text-[#fc0101]">5%</span
+            ><br class="hidden sm:block" />
             매출아 증명합LI다.
           </h1>
 
-          <div class="flex justify-between mt-10 px-[2rem]">
+          <!-- Graphs -->
+          <div
+            class="flex flex-col lg:flex-row justify-between mt-10 gap-8 px-2 sm:px-[2rem]"
+          >
             <!-- LINE GRAPH -->
-            <div class=" ">
+            <div class="flex-1">
               <canvas
-                class="w-full"
+                class="w-full max-w-full"
                 id="profitChart"
-                width="400px"
-                height="270px"
+                height="250"
               ></canvas>
               <p
                 class="text-center flex items-center gap-2 justify-center text-sm mt-2"
               >
                 <span
                   class="size-[0.9rem] rounded-full inline-block bg-[#57a7f6]"
-                ></span
-                >옆커폰 정장 월 순수익
+                ></span>
+                옆커폰 정장 월 순수익
               </p>
             </div>
+
             <!-- BAR GRAPH -->
-            <div>
+            <div class="flex-1">
               <canvas
-                class="w-full"
+                class="w-full max-w-full"
                 id="storeChart"
-                width="400px"
-                height="270px"
+                height="250"
               ></canvas>
               <p
                 class="text-center flex items-center gap-2 justify-center text-sm mt-2"
               >
                 <span
                   class="size-[0.9rem] rounded inline-block bg-[#57a7f6]"
-                ></span
-                >동종업계 매장 수
+                ></span>
+                동종업계 매장 수
               </p>
             </div>
           </div>
         </div>
       </section>
-
-      <!-- fourth section -->
-
+      <!-- FOURTH SECTION -->
       <section
-        class="bg-[#6966ff] flex justify-center items-center h-[703px] p-[3.5rem]"
+        class="bg-[#6966ff] flex justify-center items-center xl:h-[703px] px-4 sm:px-6 lg:px-[3.5rem] py-10"
       >
         <div
-          class="bg-white rounded-[2rem] h-full w-full relative py-[3rem] px-[1rem]"
+          class="bg-white rounded-[1.5rem] w-full max-w-[1200px] relative py-[4rem] px-[1rem] sm:px-[2rem] h-full"
         >
           <!-- LOGO -->
-          <div class="absolute text-[2rem] right-4 top-0">LOGO</div>
+          <div
+            class="absolute text-[1.2rem] sm:text-[1.6rem] md:text-[2rem] right-4 top-2 sm:top-4"
+          >
+            LOGO
+          </div>
+
           <!-- CONTENT -->
           <div class="flex flex-col items-center justify-end h-full">
             <div class="leading-tight">
-              <h1 class="text-[4rem] font-[900] text-[#645fca]">
+              <h1
+                class="text-[2rem] sm:text-[3rem] md:text-[4rem] font-[900] text-[#645fca]"
+              >
                 휴대폰만 판매하는 것이 아닙니다!
               </h1>
-              <p class="text-[#9f9f9f] font-[900] text-[3rem]">
+              <p
+                class="text-[#9f9f9f] font-[900] text-[1.5rem] sm:text-[2rem] md:text-[3rem] mt-2"
+              >
                 옆커폰은 고객에게 텔요한
               </p>
-              <p class="text-[#9f9f9f] font-[900] text-[3rem]">
+              <p
+                class="text-[#9f9f9f] font-[900] text-[1.5rem] sm:text-[2rem] md:text-[3rem]"
+              >
                 모든 것을 제공하는 기업으로 성장중입LI다.
               </p>
             </div>
 
-            <ul class="flex gap-3 mt-5">
+            <!-- SERVICE BOXES -->
+            <ul class="flex flex-wrap justify-center gap-4 mt-8 w-full">
               <li
-                class="text-[3rem] font-[900] bg-white box-shadow w-[250px] text-center rounded-xl py-[1.5rem] leading-tight"
+                class="text-[1.8rem] sm:text-[2.2rem] md:text-[3rem] font-[900] bg-white box-shadow w-[45%] sm:w-[200px] md:w-[240px] text-center rounded-xl py-[1rem] leading-tight"
               >
                 <p>휴대폰</p>
                 <p>인리넷</p>
               </li>
               <li
-                class="text-[3rem] font-[900] bg-white box-shadow w-[250px] text-center rounded-xl py-[1.5rem] leading-tight"
+                class="text-[1.8rem] sm:text-[2.2rem] md:text-[3rem] font-[900] bg-white box-shadow w-[45%] sm:w-[200px] md:w-[240px] text-center rounded-xl py-[1rem] leading-tight"
               >
                 <p>휴대폰</p>
                 <p>인리넷</p>
               </li>
               <li
-                class="text-[3rem] font-[900] bg-white box-shadow w-[250px] text-center rounded-xl py-[1.5rem] leading-tight"
+                class="text-[1.8rem] sm:text-[2.2rem] md:text-[3rem] font-[900] bg-white box-shadow w-[45%] sm:w-[200px] md:w-[240px] text-center rounded-xl py-[1rem] leading-tight"
               >
                 <p>휴대폰</p>
                 <p>인리넷</p>
               </li>
               <li
-                class="text-[3rem] font-[900] bg-white box-shadow w-[250px] text-center rounded-xl py-[1.5rem] leading-tight"
+                class="text-[1.8rem] sm:text-[2.2rem] md:text-[3rem] font-[900] bg-white box-shadow w-[45%] sm:w-[200px] md:w-[240px] text-center rounded-xl py-[1rem] leading-tight"
               >
                 <p>휴대폰</p>
                 <p>인리넷</p>
@@ -431,162 +337,151 @@
           </div>
         </div>
       </section>
-
-      <section class="bg-[#f2f2f2] flex justify-center h-[703px]">
-        <div class="max-w-[800px] mx-auto w-full">
-          <div class="font-[900]">
-            <h1 class="text-[#645fca] text-[4rem] font-[900] leading-tight">
-              국내 최대 규모 <br />70만 네이버카페<br />구독자 48만 유튜브<br />오프라인
-              매장 420호점
-            </h1>
-            <p class="text-[1.4rem] leading-tight mt-4">
-              많은 PPL노출 협찬광고 가맹문의 입사문의<br />
-              단연코 엽커폰 입니다!
-            </p>
-          </div>
-          <div class="text-[1.8rem] font-[900] flex flex-col gap-5 mt-5">
-            <div class="flex items-center gap-5">
-              <svg
-                class="w-[90px]"
-                version="1.1"
-                id="Layer_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 0 461.001 461.001"
-                xml:space="preserve"
-                fill="#000000"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <g>
-                    <path
-                      style="fill: #ff0000"
-                      d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"
-                    ></path>
-                  </g>
-                </g>
-              </svg>
-              <p class="bg-[white] rounded-[0.8rem] py-3 px-8 w-full">
-                오프라인 매장 전국 420호점 ↑
-              </p>
-            </div>
-            <div class="flex items-center gap-5">
-              <svg
-                class="w-[90px]"
-                version="1.1"
-                id="Layer_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 0 461.001 461.001"
-                xml:space="preserve"
-                fill="#000000"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <g>
-                    <path
-                      style="fill: #ff0000"
-                      d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"
-                    ></path>
-                  </g>
-                </g>
-              </svg>
-              <p class="bg-[white] rounded-[0.8rem] py-3 px-8 w-full">
-                네이버 공식 카페 회원수 70만 ↑
-              </p>
-            </div>
-            <div class="flex items-center gap-5">
-              <svg
-                class="w-[90px]"
-                version="1.1"
-                id="Layer_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 0 461.001 461.001"
-                xml:space="preserve"
-                fill="#000000"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <g>
-                    <path
-                      style="fill: #ff0000"
-                      d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"
-                    ></path>
-                  </g>
-                </g>
-              </svg>
-              <p class="bg-[white] rounded-[0.8rem] py-3 px-8 w-full">
-                유튜브 구독자 48만 ↑
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- fifth section -->
       <section
-        class="bg-[#6966ff] flex justify-center items-center h-[703px] p-[3.5rem]"
+        class="bg-[#6966ff] flex justify-center items-center h-auto lg:h-[703px] p-6 lg:p-[3.5rem]"
       >
         <div
-          class="bg-white rounded-[2rem] h-full w-full relative py-[3rem] px-[1rem]"
+          class="bg-white rounded-[2rem] w-full relative py-10 px-4 lg:py-[3rem] lg:px-[1rem]"
         >
           <!-- LOGO -->
-          <div class="absolute text-[2rem] right-4 top-0">LOGO</div>
-          <div class="flex gap-8">
-            <div class="relative w-[250px]">
+          <div class="absolute text-[1.5rem] lg:text-[2rem] right-4 top-2">
+            LOGO
+          </div>
+
+          <div
+            class="flex flex-col lg:flex-row gap-8 items-center lg:items-start"
+          >
+            <!-- Mobile Image with Text -->
+            <div class="relative w-[200px] sm:w-[250px]">
               <img class="w-full" src="/images/iphone.png" alt="mobile phone" />
               <div
-                class="absolute inset-7 px-4 leading-tight py-4 text-[2.6rem]"
+                class="absolute inset-5 sm:inset-7 px-3 sm:px-4 py-4 text-[1.8rem] sm:text-[2.2rem] lg:text-[2.6rem] leading-tight"
               >
                 <h1 class="text-[#645fca] font-[900]">리스크 다운</h1>
-                <p class="text-[#645fca] mt-[4rem] font-[900] leading-[1.1]">
+                <p
+                  class="text-[#645fca] mt-[2rem] sm:mt-[4rem] font-[900] leading-[1.1]"
+                >
                   투자금 회수기간 단, 5개월
                 </p>
               </div>
             </div>
-            <div class="mt-7">
-              <h3 class="text-[1.6rem] font-[900]">
+
+            <!-- Right Content -->
+            <div class="mt-5 text-center lg:text-left">
+              <h3
+                class="text-[1.2rem] sm:text-[1.4rem] lg:text-[1.6rem] font-[900]"
+              >
                 이정도 수익에 창업 비용
                 <span class="text-[#645fca]"
                   >타 가맹대비 현저히 저렴합니다</span
                 >
               </h3>
-              <h1 class="text-[4rem] font-[900] mt-[3rem] mb-[6rem]">
+              <h1
+                class="text-[2.5rem] sm:text-[3rem] lg:text-[4rem] font-[900] mt-[2rem] lg:mt-[3rem] mb-[3rem] lg:mb-[6rem]"
+              >
                 창업비용 <span class="text-[#645fca]">단 500만원</span>
               </h1>
-              <p class="text-[1.6rem] font-[900]">
+              <p
+                class="text-[1.2rem] sm:text-[1.4rem] lg:text-[1.6rem] font-[900]"
+              >
                 오직 간판+실내 인테리어면 됩니다!
               </p>
             </div>
           </div>
         </div>
       </section>
+      <!--  -->
+      <section
+        class="bg-[#f2f2f2] flex justify-center h-auto lg:h-[703px] py-10"
+      >
+        <div class="w-full max-w-[800px] mx-auto px-4">
+          <div class="font-[900]">
+            <h1
+              class="text-[#645fca] text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] font-[900] leading-snug lg:leading-tight"
+            >
+              국내 최대 규모 <br />70만 네이버카페<br />구독자 48만 유튜브<br />오프라인
+              매장 420호점
+            </h1>
+            <p
+              class="text-[1rem] sm:text-[1.2rem] lg:text-[1.4rem] leading-snug mt-4"
+            >
+              많은 PPL노출 협찬광고 가맹문의 입사문의<br />
+              단연코 엽커폰 입니다!
+            </p>
+          </div>
 
+          <div
+            class="text-[1.2rem] sm:text-[1.4rem] md:text-[1.6rem] lg:text-[1.8rem] font-[900] flex flex-col gap-5 mt-5"
+          >
+            <!-- Box 1 -->
+            <div
+              class="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-5"
+            >
+              <svg
+                class="w-[60px] sm:w-[70px] lg:w-[90px]"
+                viewBox="0 0 461.001 461.001"
+                fill="#ff0000"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"
+                />
+              </svg>
+              <p class="bg-white rounded-[0.8rem] py-3 px-5 w-full">
+                오프라인 매장 전국 420호점 ↑
+              </p>
+            </div>
+
+            <!-- Box 2 -->
+            <div
+              class="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-5"
+            >
+              <img
+                class="w-[60px] sm:w-[70px] lg:w-[90px]"
+                src="/images/naver.png"
+                alt="naver"
+              />
+              <p class="bg-white rounded-[0.8rem] py-3 px-5 w-full">
+                네이버 공식 카페 회원수 70만 ↑
+              </p>
+            </div>
+
+            <!-- Box 3 -->
+            <div
+              class="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-5"
+            >
+              <svg
+                class="w-[60px] sm:w-[70px] lg:w-[90px]"
+                viewBox="0 0 461.001 461.001"
+                fill="#ff0000"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"
+                />
+              </svg>
+              <p class="bg-white rounded-[0.8rem] py-3 px-5 w-full">
+                유튜브 구독자 48만 ↑
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- sixth section -->
       <section
-        class="bg-[#f2f2f2] h-[703px] p-[3.5rem] flex flex-col justify-evenly"
+        class="bg-[#f2f2f2] min-h-[703px] h-auto p-6 lg:p-[3.5rem] flex flex-col justify-evenly md:gap-10"
       >
-        <div class="mx-[5rem]">
-          <h1 class="text-[#645fca] font-[900] text-[4rem]">
+        <!-- Text Section -->
+        <div class="mx-0 sm:mx-8 lg:mx-[5rem] text-center lg:text-left">
+          <h1
+            class="text-[#645fca] font-[900] text-[2rem] sm:text-[3rem] lg:text-[4rem] leading-tight"
+          >
             붙황이 없는 사업 아이템
           </h1>
-          <div class="text-[#6b6b6b] text-[1.3rem] font-medium">
+          <div
+            class="text-[#6b6b6b] text-[1rem] sm:text-[1.2rem] lg:text-[1.3rem] font-medium mt-4 space-y-2"
+          >
             <p>
               쇼핑몰, 요식업과는 다르게 난이도가 낮고, 실생활에 꼭 필요한
               스마트폰이 주력
@@ -598,19 +493,20 @@
           </div>
         </div>
 
-        <div class="w-[900px]">
-          <canvas width="500" height="150" id="myChart"></canvas>
+        <!-- Chart Section -->
+        <div class="w-full max-w-[900px]">
+          <canvas id="myChart" class="w-full max-h-[250px]"></canvas>
           <p
             class="text-center flex items-center gap-2 justify-center text-sm mt-4"
           >
             <span
               class="size-[0.9rem] rounded-full inline-block bg-[#57a7f6]"
-            ></span
-            >대한민국 스마트폰 보급을
+            ></span>
+            대한민국 스마트폰 보급을
           </p>
         </div>
       </section>
-
+      <!-- interview -->
       <h6 class="text-[#645fca] text-center text-[24px] font-[700]">
         옆커폰 점장님들의 생생한 interview
       </h6>
@@ -620,7 +516,6 @@
       >
         <h1>YOUTUBE LINK</h1>
       </section>
-
       <!-- eight section -->
       <section
         class="sec-block flex justify-center items-center h-[703px] p-[3.5rem]"
@@ -629,130 +524,144 @@
       </section>
       <!-- ninth section -->
       <section
-        class="bg-[#f2f2f2] flex flex-col justify-evenly items-center h-[703px] p-[3.5rem]"
+        class="bg-[#f2f2f2] flex flex-col justify-evenly items-center min-h-[703px] h-auto p-6 lg:p-[3.5rem]"
       >
-        <h1 class="text-[#645fca] font-[900] text-[4rem]">
+        <h1
+          class="text-[#645fca] font-[900] text-[2rem] sm:text-[3rem] lg:text-[4rem] text-center"
+        >
           열카콘 창업 시스템
         </h1>
-        <ul class="grid grid-cols-3 justify-evenly gap-10 leading-tight">
+        <ul
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10 mt-10 w-full"
+        >
           <li
-            class="bg-white rounded-2xl w-[300px] h-[140px] px-[1.5rem] py-[1.2rem] flex justify-center"
+            class="bg-white rounded-2xl w-full max-w-[300px] h-[140px] px-4 py-4 flex justify-center mx-auto"
           >
             <span
-              class="outline-4 outline-[#b1add7] rounded-xl text-[2.5rem] font-[900] flex justify-center items-center w-full"
-              >창업 문의</span
+              class="outline-4 outline-[#b1add7] rounded-xl text-[1.8rem] sm:text-[2rem] lg:text-[2.5rem] font-[900] flex justify-center items-center w-full text-center"
             >
+              창업 문의
+            </span>
           </li>
           <li
-            class="bg-white rounded-2xl w-[300px] h-[140px] px-[1.5rem] py-[1.2rem] flex justify-center"
+            class="bg-white rounded-2xl w-full max-w-[300px] h-[140px] px-4 py-4 flex justify-center mx-auto"
           >
             <span
-              class="outline-4 outline-[#b1add7] rounded-xl text-[2.5rem] font-[900] flex justify-center items-center w-full"
-              >지역장 면담</span
+              class="outline-4 outline-[#b1add7] rounded-xl text-[1.8rem] sm:text-[2rem] lg:text-[2.5rem] font-[900] flex justify-center items-center w-full text-center"
             >
+              지역장 면담
+            </span>
           </li>
           <li
-            class="bg-white rounded-2xl w-[300px] h-[140px] px-[1.5rem] py-[1.2rem] flex justify-center"
+            class="bg-white rounded-2xl w-full max-w-[300px] h-[140px] px-4 py-4 flex justify-center mx-auto"
           >
             <span
-              class="outline-4 outline-[#b1add7] rounded-xl text-[2.5rem] font-[900] flex justify-center items-center w-full"
-              >본사 승인</span
+              class="outline-4 outline-[#b1add7] rounded-xl text-[1.8rem] sm:text-[2rem] lg:text-[2.5rem] font-[900] flex justify-center items-center w-full text-center"
             >
+              본사 승인
+            </span>
           </li>
           <li
-            class="bg-white rounded-2xl w-[300px] h-[140px] px-[1.5rem] py-[1.2rem] flex justify-center"
+            class="bg-white rounded-2xl w-full max-w-[300px] h-[140px] px-4 py-4 flex justify-center mx-auto"
           >
             <span
-              class="outline-4 outline-[#b1add7] rounded-xl text-[1.7rem] font-[900] flex justify-center items-center w-full"
-              >상권분석 가맹계 <br />
-              약 및 교육시작</span
+              class="outline-4 outline-[#b1add7] rounded-xl text-[1.4rem] sm:text-[1.5rem] lg:text-[1.7rem] font-[900] flex justify-center items-center w-full text-center leading-tight"
             >
+              상권분석 가맹계<br />약 및 교육시작
+            </span>
           </li>
           <li
-            class="bg-white rounded-2xl w-[300px] h-[140px] px-[1.5rem] py-[1.2rem] flex justify-center"
+            class="bg-white rounded-2xl w-full max-w-[300px] h-[140px] px-4 py-4 flex justify-center mx-auto"
           >
             <span
-              class="outline-4 outline-[#b1add7] rounded-xl text-[1.7rem] font-[900] flex justify-center items-center w-full"
-              >운영교육 및 <br />
-              인테리어시공</span
+              class="outline-4 outline-[#b1add7] rounded-xl text-[1.4rem] sm:text-[1.5rem] lg:text-[1.7rem] font-[900] flex justify-center items-center w-full text-center leading-tight"
             >
+              운영교육 및<br />인테리어시공
+            </span>
           </li>
           <li
-            class="bg-white rounded-2xl w-[300px] h-[140px] px-[1.5rem] py-[1.2rem] flex justify-center"
+            class="bg-white rounded-2xl w-full max-w-[300px] h-[140px] px-4 py-4 flex justify-center mx-auto"
           >
             <span
-              class="outline-4 outline-[#b1add7] rounded-xl text-[1.7rem] font-[900] flex justify-center items-center w-full"
-              >교육 종료 후 <br />
-              OPEN</span
+              class="outline-4 outline-[#b1add7] rounded-xl text-[1.4rem] sm:text-[1.5rem] lg:text-[1.7rem] font-[900] flex justify-center items-center w-full text-center leading-tight"
             >
+              교육 종료 후<br />OPEN
+            </span>
           </li>
         </ul>
       </section>
-
       <!-- last section -->
-
       <section
-        class="bg-[#f2f2f2] flex flex-col justify-evenly items-center h-[703px] p-[3.5rem]"
+        class="bg-[#f2f2f2] flex flex-col justify-evenly items-center min-h-[703px] h-auto p-6 lg:p-[3.5rem]"
       >
-        <h1 class="text-[#645fca] font-[900] text-[4rem]">
+        <h1
+          class="text-[#645fca] font-[900] text-[2rem] sm:text-[3rem] lg:text-[4rem] text-center"
+        >
           옆커폰 입사 시스템
         </h1>
-        <ul class="grid grid-cols-3 justify-evenly gap-10">
+
+        <ul
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10 mt-10 w-full"
+        >
           <li
-            class="bg-white rounded-2xl w-[300px] h-[140px] px-[1.5rem] py-[1.2rem] flex justify-center"
+            class="bg-white rounded-2xl w-full max-w-[300px] h-[140px] px-4 py-4 flex justify-center mx-auto"
           >
             <span
-              class="outline-4 outline-[#b1add7] rounded-xl text-[2.5rem] font-[900] flex justify-center items-center w-full"
-              >입사 지원</span
+              class="outline-4 outline-[#b1add7] rounded-xl text-[1.8rem] sm:text-[2rem] lg:text-[2.5rem] font-[900] flex justify-center items-center w-full text-center"
             >
+              입사 지원
+            </span>
           </li>
           <li
-            class="bg-white rounded-2xl w-[300px] h-[140px] px-[1.5rem] py-[1.2rem] flex justify-center"
+            class="bg-white rounded-2xl w-full max-w-[300px] h-[140px] px-4 py-4 flex justify-center mx-auto"
           >
             <span
-              class="outline-4 outline-[#b1add7] rounded-xl text-[2.5rem] font-[900] flex justify-center items-center w-full"
-              >지역장 면담</span
+              class="outline-4 outline-[#b1add7] rounded-xl text-[1.8rem] sm:text-[2rem] lg:text-[2.5rem] font-[900] flex justify-center items-center w-full text-center"
             >
+              지역장 면담
+            </span>
           </li>
           <li
-            class="bg-white rounded-2xl w-[300px] h-[140px] px-[1.5rem] py-[1.2rem] flex justify-center"
+            class="bg-white rounded-2xl w-full max-w-[300px] h-[140px] px-4 py-4 flex justify-center mx-auto"
           >
             <span
-              class="outline-4 outline-[#b1add7] rounded-xl text-[2.5rem] font-[900] flex justify-center items-center w-full"
-              >본사 승인</span
+              class="outline-4 outline-[#b1add7] rounded-xl text-[1.8rem] sm:text-[2rem] lg:text-[2.5rem] font-[900] flex justify-center items-center w-full text-center"
             >
+              본사 승인
+            </span>
           </li>
           <li
-            class="bg-white rounded-2xl w-[300px] h-[140px] px-[1.5rem] py-[1.2rem] flex justify-center"
+            class="bg-white rounded-2xl w-full max-w-[300px] h-[140px] px-4 py-4 flex justify-center mx-auto"
           >
             <span
-              class="outline-4 outline-[#b1add7] rounded-xl text-[1.5rem] font-[900] flex justify-center items-center w-full"
-              >선임점장 매장 <br />
-              발령후 교육</span
+              class="outline-4 outline-[#b1add7] rounded-xl text-[1.3rem] sm:text-[1.5rem] lg:text-[1.7rem] font-[900] flex justify-center items-center w-full text-center leading-tight"
             >
+              선임점장 매장<br />발령후 교육
+            </span>
           </li>
           <li
-            class="bg-white rounded-2xl w-[300px] h-[140px] px-[1.5rem] py-[1.2rem] flex justify-center"
+            class="bg-white rounded-2xl w-full max-w-[300px] h-[140px] px-4 py-4 flex justify-center mx-auto"
           >
             <span
-              class="outline-4 outline-[#b1add7] rounded-xl text-[2.5rem] font-[900] flex justify-center items-center w-full"
-              >점장교육 진행</span
+              class="outline-4 outline-[#b1add7] rounded-xl text-[1.8rem] sm:text-[2rem] lg:text-[2.5rem] font-[900] flex justify-center items-center w-full text-center"
             >
+              점장교육 진행
+            </span>
           </li>
           <li
-            class="bg-white rounded-2xl w-[300px] h-[140px] px-[1.5rem] py-[1.2rem] flex justify-center"
+            class="bg-white rounded-2xl w-full max-w-[300px] h-[140px] px-4 py-4 flex justify-center mx-auto"
           >
             <span
-              class="outline-4 outline-[#b1add7] rounded-xl text-[1.5rem] font-[900] flex justify-center items-center w-full"
-              >매장 OPEN <br />
-              OR 매장근무</span
+              class="outline-4 outline-[#b1add7] rounded-xl text-[1.3rem] sm:text-[1.5rem] lg:text-[1.7rem] font-[900] flex justify-center items-center w-full text-center leading-tight"
             >
+              매장 OPEN<br />OR 매장근무
+            </span>
           </li>
         </ul>
       </section>
       <!-- FORM -->
       <section class="max-w-[610px] mx-auto">
-        <h1 class="text-[60px] font-[900] text-center">
+        <h1 class="md:text-[60px] text-[40px] font-[900] text-center">
           옆커폰 창업 및 입사문의
         </h1>
         <p class="text-[#8841f5] text-[22px] text-center mt-5 font-medium">
