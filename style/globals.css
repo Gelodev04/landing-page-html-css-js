@@ -41,3 +41,7 @@ textarea:focus {
   outline-color: #1254a0;
   outline-width: 0.5px;
 }
+
+textarea{
+  padding-left: 0.5rem;
+}
